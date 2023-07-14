@@ -13,7 +13,6 @@ import java.util.List;
 
 @RequiredArgsConstructor
 @RestController
-@CrossOrigin(maxAge = 3600)
 public class UserController {
     private final LoginService loginService;
     private final JoinService joinService;

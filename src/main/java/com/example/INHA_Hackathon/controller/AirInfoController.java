@@ -12,7 +12,6 @@ import java.io.IOException;
 
 @RequiredArgsConstructor
 @RestController
-@CrossOrigin(maxAge = 3600)
 public class AirInfoController {
     private final AirConditionService airConditionService;
 

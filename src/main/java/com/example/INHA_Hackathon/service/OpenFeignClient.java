@@ -10,4 +10,3 @@ public interface OpenFeignClient {
     @GetMapping(value = "/api/MinuDustFrcstDspthSvrc/v1/getMinuDustFrcstDspth")
     String getAirInfo( @RequestParam("searchDate") String searchDate, @RequestParam("serviceKey") String serviceKey);
 }
-//https://api.odcloud.kr/api/MinuDustFrcstDspthSvrc/v1/getMinuDustFrcstDspth?searchDate=2023-07-11&serviceKey=u2XnRNRAQIy5gg%2BJh6TXfRoDnS3%2BK8UsIvP5B0jQtaNIwFsxzlOhVhagS9bNVL%2Fw848PaSG7D0L2egFgJDGXzw%3D%3D
