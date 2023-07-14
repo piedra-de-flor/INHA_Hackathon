@@ -1,3 +1,4 @@
+/*
 package com.example.INHA_Hackathon.controller;
 
 import org.springframework.stereotype.Controller;
@@ -11,3 +12,4 @@ public class CurrentLocationController {
         return "currentLocation";
     }
 }
+*/
