@@ -33,6 +33,8 @@ dependencies {
 
 	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:4.0.1'
 	implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml'
+
+	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper:'
 }
 
 tasks.withType(Test) {
