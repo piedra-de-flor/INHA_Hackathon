@@ -5,7 +5,7 @@ import lombok.Builder;
 import lombok.Getter;
 
 @Getter
-public class LoginResponseDto {
+public class UserInfoResponseDto {
     private final String id;
     private final String password;
     private final String userName;
@@ -14,7 +14,7 @@ public class LoginResponseDto {
     private final long mileage;
 
     @Builder
-    public LoginResponseDto(User user) {
+    public UserInfoResponseDto(User user) {
         this.id = user.getId();
         this.password = user.getPassword();
         this.userName = user.getUserName();

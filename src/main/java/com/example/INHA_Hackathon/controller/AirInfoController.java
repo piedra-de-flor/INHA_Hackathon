@@ -3,7 +3,6 @@ package com.example.INHA_Hackathon.controller;
 import com.example.INHA_Hackathon.dto.GetAirInfoResponseDto;
 import com.example.INHA_Hackathon.service.AirConditionService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
